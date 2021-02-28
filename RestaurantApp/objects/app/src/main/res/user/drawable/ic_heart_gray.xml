@@ -1,0 +1,4 @@
+<vector android:height="24dp" android:viewportHeight="27"
+    android:viewportWidth="31" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#999" android:name="ic-heart" android:pathData="m22.427 -0.003c4.734 0 8.574 3.87 8.574 8.642c0 7.888 -15.502 18.365 -15.502 18.365c0 0 -15.502 -10.098 -15.502 -18.365c0 -5.941 3.838 -8.642 8.572 -8.642c2.852 0 5.371 1.409 6.929 3.569c1.559 -2.159 4.078 -3.569 6.929 -3.569z"/>
+</vector>
