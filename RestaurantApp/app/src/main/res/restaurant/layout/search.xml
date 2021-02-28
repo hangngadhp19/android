@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#efefef"
+        tools:context=".SearchFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:background="@drawable/white_boder"
+                android:id="@+id/relLayout1">
+
+                <AutoCompleteTextView
+                    android:id="@+id/input_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/ic_magnify"
+                    android:layout_centerVertical="true"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:paddingLeft="6dp"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:background="@null"
+                    android:hint="Enter Restaurant Name"
+                    android:imeOptions="actionSearch" />
+
+                <Button
+                    android:id="@+id/btn_clear"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignRight="@+id/input_search"
+                    android:background="@drawable/cleartext" />
+                <ImageView
+                    android:id="@+id/ic_magnify"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:clickable="true"
+                    android:src="@drawable/ic_magnify" />
+            </RelativeLayout>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/ic_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@drawable/ic_gps"
+                android:layout_below="@id/relLayout1"
+                android:background="@drawable/oval_shape"
+                app:backgroundTint="#fcf9f9"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                app:layout_anchorGravity="right|end" />
+
+        </RelativeLayout>
+        <!-- Adding bottom sheet after main content -->
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

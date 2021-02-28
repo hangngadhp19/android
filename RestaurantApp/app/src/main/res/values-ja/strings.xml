@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">res_app</string>
+    <string name="welcome">滑走路のメンバーのためのキュートな推薦。</string>
+    <!-- Sign In -->
+    <string name="sign_in_title">携帯電話でログインします</string>
+    <string name="sign_in_footer">アカウントを持っていない？</string>
+    <string name="sign_in">サインイン</string>
+    <string name="sign_up">サインアップ</string>
+    <string name="your_phone">あなたの電話</string>
+    <string name="password">パスワード</string>
+    <!-- Sign Up -->
+    <string name="sign_up_title">携帯電話番号で登録する</string>
+    <string name="confirm_password">パスワードを認証する</string>
+    <!-- Verification code -->
+    <string name="verification_title">検証コード</string>
+    <string name="verification_message">SMS認証コードが送信されました:</string>
+    <string name="pin_code">ピンコード</string>
+    <string name="button_next">次</string>
+    <!-- Profile -->
+    <string name="address">住所</string>
+    <string name="phone_number">電話番号</string>
+    <string name="email">Eメール</string>
+    <!-- Setting -->
+    <string name="setting">設定</string>
+    <string name="location">ロケーション</string>
+    <string name="change">変化する</string>
+    <!-- Change password -->
+    <string name="change_password">パスワードを変更する</string>
+    <string name="password_old">以前のパスワード</string>
+    <string name="password_new">新しいパスワード</string>
+    <string name="confirm_password_new">Confirm New Password</string>
+    <!-- Favorite -->
+    <string name="title_favorite">私のお気に入り</string>
+    <!-- Menu -->
+    <string name="title_menu">メニュー</string>
+    <string name="title_about">約</string>
+    <string name="title_review">レビュー</string>
+
+    <string name="open">開いた</string>
+    <string name="save">セーブ</string>
+    <string name="send">送信</string>
+    <string name="read_more">続きを読む</string>
+    <string name="input_comment">コメントを入力</string>
+    <string name="show_map">地図に表示</string>
+    <string name="more_information">地図を表示</string>
+    <string name="skip">スキップ</string>
+    <string name="loading">読み込み中…</string>
+    <string name="title_activity_restaurant">レストランアクティビティ</string>
+    <string name="title_activity_view_pager_res">ViewPagerResActivity</string>
+    <string name="title_activity_view_pager_menu">ViewPagerMenuActivity</string>
+    <string name="place_details">%1$s</string>
+    <string name="title_activity_walkthought">WalkthoughtActivity</string>
+    <string name="title_activity_review">ReviewActivity</string>
+
+</resources>

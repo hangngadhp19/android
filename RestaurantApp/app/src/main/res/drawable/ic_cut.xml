@@ -1,0 +1,5 @@
+<vector android:height="24dp" android:viewportHeight="50"
+    android:viewportWidth="50" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff" android:name="bg" android:pathData="m25 -0c13.81 0 25 11.19 25 25c0 13.81 -11.19 25 -25 25c-13.81 0 -25 -11.19 -25 -25c0 -13.81 11.19 -25 25 -25z"/>
+    <path android:fillColor="#ddd" android:name="ic-cut" android:pathData="m14 24h23v3h-23v-3z"/>
+</vector>

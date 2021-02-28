@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Restaurant App</string>
+
+    <string name="welcome">Curated foof recommendation for Runway members.</string>
+    <!-- Sign In -->
+    <string name="sign_in_title">Sign in with email</string>
+    <string name="sign_in_footer">Do not have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="your_phone">Your Phone</string>
+    <string name="your_email">Your Email</string>
+    <string name="password">Password</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <!-- Sign Up -->
+    <string name="sign_up_title">Sign up with email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="auth_failed">Authentication failed</string>
+    <!-- Verification code -->
+    <string name="verification_title">Verification code</string>
+    <string name="verification_message">SMS verification code has been sent to:</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="button_next">Next</string>
+    <!-- Profile -->
+    <string name="user_name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <!-- Setting -->
+    <string name="setting">Setting</string>
+    <string name="location">Location</string>
+    <string name="change">Change</string>
+    <!-- Change password -->
+    <string name="change_password">Change Password</string>
+    <string name="password_old">Old Password</string>
+    <string name="password_new">New Password</string>
+    <string name="confirm_password_new">Confirm New Password</string>
+    <!-- Favorite -->
+    <string name="title_favorite">My Favorites</string>
+    <!-- Menu -->
+    <string name="title_menu">Menu</string>
+    <string name="title_about">About</string>
+    <string name="title_review">Review</string>
+
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="send">Send</string>
+    <string name="read_more">Read more</string>
+    <string name="input_comment">Input comment</string>
+    <string name="show_map">Show in map</string>
+    <string name="more_information">More information</string>
+    <string name="skip">Skip</string>
+    <string name="loading">Loading…</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="title_activity_view_pager_res">ViewPagerResActivity</string>
+    <string name="title_activity_view_pager_menu">ViewPagerMenuActivity</string>
+    <string name="place_details">%1$s</string>
+    <string name="title_activity_walkthought">WalkthoughtActivity</string>
+    <string name="title_activity_review">ReviewActivity</string>
+</resources>
